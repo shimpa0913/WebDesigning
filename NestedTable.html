@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border = "1" cellspacing = "0" align = "center">
+        <tr>
+        <th>Header Colunm 1</th>
+        <th>Header Colunm 2</th>
+        <th>Header Colunm 3</th>
+        <th>Header Colunm 4</th>
+    </tr>
+    <tr>
+        <td>Row 2 Item 1</td>
+        <td>Row 2 Item 2</td>
+        <td rowspan = "2"> <b>Row 2 Nested Table 1 </b>
+        <table border = "1" cellspacing = "0">
+            <tr>
+            <th>Row 1 Header </th>
+            <td>Item </td>
+        </tr>
+        <tr>
+            <th>Row 1 Header </th>
+            <td>Item </td>
+        </tr>
+        <tr>
+            <th>Row 1 Header </th>
+            <td>Item </td>
+        </tr>
+        </table>
+        </td>
+        <th>Row 2 Item 4</th>
+    </tr>
+    <tr>
+        <td> <b>Row 3 Nested Table 2</b>
+            <table border = "1" cellspacing = "0">
+                <tr>
+                <th>Row 1 Header </th>
+                <td>Item </td>
+            </tr>
+            <tr>
+                <th>Row 1 Header </th>
+                <td>Item </td>
+            </tr>
+            </table>
+        </td>
+        <td>Row 3 Item 2</td>
+        <td rowspan = "2">Row 3 Item 3</td>
+    </tr>
+    <tr>
+        <td>Row 4 Item 1</td>
+        <td>Row 4 Item 2</td>
+        <td>Row 4 Item 3</td>
+    </tr>
+    <td colspan = "4">Row 5  last row of outer</td>
+    </table>
+</body>
+</html>
